@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0470C8F1BAD3B8D0008C53A /* SSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F0470C8E1BAD3B8D0008C53A /* SSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0470C961BAD3B8D0008C53A /* SSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0470C8B1BAD3B8D0008C53A /* SSLogger.framework */; };
+		F0470C9B1BAD3B8D0008C53A /* SSLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0470C9A1BAD3B8D0008C53A /* SSLoggerTests.swift */; };
+		F0470CA71BAD3C100008C53A /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0470CA61BAD3C100008C53A /* Printer.swift */; };
+		F0470CAF1BAD3D150008C53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0470CAE1BAD3D150008C53A /* AppDelegate.swift */; };
+		F0470CB11BAD3D150008C53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0470CB01BAD3D150008C53A /* ViewController.swift */; };
+		F0470CB41BAD3D150008C53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0470CB21BAD3D150008C53A /* Main.storyboard */; };
+		F0470CB61BAD3D150008C53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0470CB51BAD3D150008C53A /* Assets.xcassets */; };
+		F0470CB91BAD3D150008C53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0470CB71BAD3D150008C53A /* LaunchScreen.storyboard */; };
+		F0470CC41BAD3D150008C53A /* SSLoggerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0470CC31BAD3D150008C53A /* SSLoggerSampleTests.swift */; };
+		F0470CCF1BAD3D150008C53A /* SSLoggerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0470CCE1BAD3D150008C53A /* SSLoggerSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0470C971BAD3B8D0008C53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0470C821BAD3B8D0008C53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0470C8A1BAD3B8D0008C53A;
+			remoteInfo = SSLogger;
+		};
+		F0470CC01BAD3D150008C53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0470C821BAD3B8D0008C53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0470CAB1BAD3D140008C53A;
+			remoteInfo = SSLoggerSample;
+		};
+		F0470CCB1BAD3D150008C53A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0470C821BAD3B8D0008C53A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0470CAB1BAD3D140008C53A;
+			remoteInfo = SSLoggerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0470C8B1BAD3B8D0008C53A /* SSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0470C8E1BAD3B8D0008C53A /* SSLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSLogger.h; sourceTree = "<group>"; };
+		F0470C901BAD3B8D0008C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0470C951BAD3B8D0008C53A /* SSLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0470C9A1BAD3B8D0008C53A /* SSLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLoggerTests.swift; sourceTree = "<group>"; };
+		F0470C9C1BAD3B8D0008C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0470CA61BAD3C100008C53A /* Printer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		F0470CAC1BAD3D140008C53A /* SSLoggerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLoggerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0470CAE1BAD3D150008C53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0470CB01BAD3D150008C53A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0470CB31BAD3D150008C53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0470CB51BAD3D150008C53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0470CB81BAD3D150008C53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0470CBA1BAD3D150008C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0470CBF1BAD3D150008C53A /* SSLoggerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLoggerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0470CC31BAD3D150008C53A /* SSLoggerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLoggerSampleTests.swift; sourceTree = "<group>"; };
+		F0470CC51BAD3D150008C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0470CCA1BAD3D150008C53A /* SSLoggerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLoggerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0470CCE1BAD3D150008C53A /* SSLoggerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLoggerSampleUITests.swift; sourceTree = "<group>"; };
+		F0470CD01BAD3D150008C53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0470C871BAD3B8D0008C53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470C921BAD3B8D0008C53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0470C961BAD3B8D0008C53A /* SSLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CA91BAD3D140008C53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CBC1BAD3D150008C53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CC71BAD3D150008C53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0470C811BAD3B8D0008C53A = {
+			isa = PBXGroup;
+			children = (
+				F0470C8D1BAD3B8D0008C53A /* SSLogger */,
+				F0470CA51BAD3BFC0008C53A /* Source */,
+				F0470C991BAD3B8D0008C53A /* SSLoggerTests */,
+				F0470CAD1BAD3D150008C53A /* SSLoggerSample */,
+				F0470CC21BAD3D150008C53A /* SSLoggerSampleTests */,
+				F0470CCD1BAD3D150008C53A /* SSLoggerSampleUITests */,
+				F0470C8C1BAD3B8D0008C53A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0470C8C1BAD3B8D0008C53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0470C8B1BAD3B8D0008C53A /* SSLogger.framework */,
+				F0470C951BAD3B8D0008C53A /* SSLoggerTests.xctest */,
+				F0470CAC1BAD3D140008C53A /* SSLoggerSample.app */,
+				F0470CBF1BAD3D150008C53A /* SSLoggerSampleTests.xctest */,
+				F0470CCA1BAD3D150008C53A /* SSLoggerSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0470C8D1BAD3B8D0008C53A /* SSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				F0470C8E1BAD3B8D0008C53A /* SSLogger.h */,
+				F0470C901BAD3B8D0008C53A /* Info.plist */,
+			);
+			path = SSLogger;
+			sourceTree = "<group>";
+		};
+		F0470C991BAD3B8D0008C53A /* SSLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0470C9A1BAD3B8D0008C53A /* SSLoggerTests.swift */,
+				F0470C9C1BAD3B8D0008C53A /* Info.plist */,
+			);
+			path = SSLoggerTests;
+			sourceTree = "<group>";
+		};
+		F0470CA51BAD3BFC0008C53A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F0470CA61BAD3C100008C53A /* Printer.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F0470CAD1BAD3D150008C53A /* SSLoggerSample */ = {
+			isa = PBXGroup;
+			children = (
+				F0470CAE1BAD3D150008C53A /* AppDelegate.swift */,
+				F0470CB01BAD3D150008C53A /* ViewController.swift */,
+				F0470CB21BAD3D150008C53A /* Main.storyboard */,
+				F0470CB51BAD3D150008C53A /* Assets.xcassets */,
+				F0470CB71BAD3D150008C53A /* LaunchScreen.storyboard */,
+				F0470CBA1BAD3D150008C53A /* Info.plist */,
+			);
+			path = SSLoggerSample;
+			sourceTree = "<group>";
+		};
+		F0470CC21BAD3D150008C53A /* SSLoggerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0470CC31BAD3D150008C53A /* SSLoggerSampleTests.swift */,
+				F0470CC51BAD3D150008C53A /* Info.plist */,
+			);
+			path = SSLoggerSampleTests;
+			sourceTree = "<group>";
+		};
+		F0470CCD1BAD3D150008C53A /* SSLoggerSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0470CCE1BAD3D150008C53A /* SSLoggerSampleUITests.swift */,
+				F0470CD01BAD3D150008C53A /* Info.plist */,
+			);
+			path = SSLoggerSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F0470C881BAD3B8D0008C53A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0470C8F1BAD3B8D0008C53A /* SSLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F0470C8A1BAD3B8D0008C53A /* SSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0470C9F1BAD3B8D0008C53A /* Build configuration list for PBXNativeTarget "SSLogger" */;
+			buildPhases = (
+				F0470C861BAD3B8D0008C53A /* Sources */,
+				F0470C871BAD3B8D0008C53A /* Frameworks */,
+				F0470C881BAD3B8D0008C53A /* Headers */,
+				F0470C891BAD3B8D0008C53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLogger;
+			productName = SSLogger;
+			productReference = F0470C8B1BAD3B8D0008C53A /* SSLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0470C941BAD3B8D0008C53A /* SSLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0470CA21BAD3B8D0008C53A /* Build configuration list for PBXNativeTarget "SSLoggerTests" */;
+			buildPhases = (
+				F0470C911BAD3B8D0008C53A /* Sources */,
+				F0470C921BAD3B8D0008C53A /* Frameworks */,
+				F0470C931BAD3B8D0008C53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0470C981BAD3B8D0008C53A /* PBXTargetDependency */,
+			);
+			name = SSLoggerTests;
+			productName = SSLoggerTests;
+			productReference = F0470C951BAD3B8D0008C53A /* SSLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0470CAB1BAD3D140008C53A /* SSLoggerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0470CD11BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSample" */;
+			buildPhases = (
+				F0470CA81BAD3D140008C53A /* Sources */,
+				F0470CA91BAD3D140008C53A /* Frameworks */,
+				F0470CAA1BAD3D140008C53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLoggerSample;
+			productName = SSLoggerSample;
+			productReference = F0470CAC1BAD3D140008C53A /* SSLoggerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0470CBE1BAD3D150008C53A /* SSLoggerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0470CD41BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSampleTests" */;
+			buildPhases = (
+				F0470CBB1BAD3D150008C53A /* Sources */,
+				F0470CBC1BAD3D150008C53A /* Frameworks */,
+				F0470CBD1BAD3D150008C53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0470CC11BAD3D150008C53A /* PBXTargetDependency */,
+			);
+			name = SSLoggerSampleTests;
+			productName = SSLoggerSampleTests;
+			productReference = F0470CBF1BAD3D150008C53A /* SSLoggerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0470CC91BAD3D150008C53A /* SSLoggerSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0470CD71BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSampleUITests" */;
+			buildPhases = (
+				F0470CC61BAD3D150008C53A /* Sources */,
+				F0470CC71BAD3D150008C53A /* Frameworks */,
+				F0470CC81BAD3D150008C53A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0470CCC1BAD3D150008C53A /* PBXTargetDependency */,
+			);
+			name = SSLoggerSampleUITests;
+			productName = SSLoggerSampleUITests;
+			productReference = F0470CCA1BAD3D150008C53A /* SSLoggerSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0470C821BAD3B8D0008C53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kenta Tokumoto";
+				TargetAttributes = {
+					F0470C8A1BAD3B8D0008C53A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F0470C941BAD3B8D0008C53A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F0470CAB1BAD3D140008C53A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F0470CBE1BAD3D150008C53A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F0470CAB1BAD3D140008C53A;
+					};
+					F0470CC91BAD3D150008C53A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F0470CAB1BAD3D140008C53A;
+					};
+				};
+			};
+			buildConfigurationList = F0470C851BAD3B8D0008C53A /* Build configuration list for PBXProject "SSLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0470C811BAD3B8D0008C53A;
+			productRefGroup = F0470C8C1BAD3B8D0008C53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0470C8A1BAD3B8D0008C53A /* SSLogger */,
+				F0470C941BAD3B8D0008C53A /* SSLoggerTests */,
+				F0470CAB1BAD3D140008C53A /* SSLoggerSample */,
+				F0470CBE1BAD3D150008C53A /* SSLoggerSampleTests */,
+				F0470CC91BAD3D150008C53A /* SSLoggerSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0470C891BAD3B8D0008C53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470C931BAD3B8D0008C53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CAA1BAD3D140008C53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0470CB91BAD3D150008C53A /* LaunchScreen.storyboard in Resources */,
+				F0470CB61BAD3D150008C53A /* Assets.xcassets in Resources */,
+				F0470CB41BAD3D150008C53A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CBD1BAD3D150008C53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CC81BAD3D150008C53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0470C861BAD3B8D0008C53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0470CA71BAD3C100008C53A /* Printer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470C911BAD3B8D0008C53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0470C9B1BAD3B8D0008C53A /* SSLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CA81BAD3D140008C53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0470CB11BAD3D150008C53A /* ViewController.swift in Sources */,
+				F0470CAF1BAD3D150008C53A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CBB1BAD3D150008C53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0470CC41BAD3D150008C53A /* SSLoggerSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0470CC61BAD3D150008C53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0470CCF1BAD3D150008C53A /* SSLoggerSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0470C981BAD3B8D0008C53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0470C8A1BAD3B8D0008C53A /* SSLogger */;
+			targetProxy = F0470C971BAD3B8D0008C53A /* PBXContainerItemProxy */;
+		};
+		F0470CC11BAD3D150008C53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0470CAB1BAD3D140008C53A /* SSLoggerSample */;
+			targetProxy = F0470CC01BAD3D150008C53A /* PBXContainerItemProxy */;
+		};
+		F0470CCC1BAD3D150008C53A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0470CAB1BAD3D140008C53A /* SSLoggerSample */;
+			targetProxy = F0470CCB1BAD3D150008C53A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0470CB21BAD3D150008C53A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0470CB31BAD3D150008C53A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0470CB71BAD3D150008C53A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0470CB81BAD3D150008C53A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0470C9D1BAD3B8D0008C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0470C9E1BAD3B8D0008C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0470CA01BAD3B8D0008C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SSLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0470CA11BAD3B8D0008C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SSLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F0470CA31BAD3B8D0008C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0470CA41BAD3B8D0008C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0470CD21BAD3D150008C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLoggerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLoggerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0470CD31BAD3D150008C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLoggerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLoggerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0470CD51BAD3D150008C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSLoggerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLoggerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLoggerSample.app/SSLoggerSample";
+			};
+			name = Debug;
+		};
+		F0470CD61BAD3D150008C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SSLoggerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLoggerSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLoggerSample.app/SSLoggerSample";
+			};
+			name = Release;
+		};
+		F0470CD81BAD3D150008C53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSLoggerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLoggerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSLoggerSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F0470CD91BAD3D150008C53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SSLoggerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.totomo.SSLoggerSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SSLoggerSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0470C851BAD3B8D0008C53A /* Build configuration list for PBXProject "SSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0470C9D1BAD3B8D0008C53A /* Debug */,
+				F0470C9E1BAD3B8D0008C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0470C9F1BAD3B8D0008C53A /* Build configuration list for PBXNativeTarget "SSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0470CA01BAD3B8D0008C53A /* Debug */,
+				F0470CA11BAD3B8D0008C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0470CA21BAD3B8D0008C53A /* Build configuration list for PBXNativeTarget "SSLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0470CA31BAD3B8D0008C53A /* Debug */,
+				F0470CA41BAD3B8D0008C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0470CD11BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0470CD21BAD3D150008C53A /* Debug */,
+				F0470CD31BAD3D150008C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0470CD41BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0470CD51BAD3D150008C53A /* Debug */,
+				F0470CD61BAD3D150008C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0470CD71BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0470CD81BAD3D150008C53A /* Debug */,
+				F0470CD91BAD3D150008C53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0470C821BAD3B8D0008C53A /* Project object */;
+}
