@@ -18,6 +18,7 @@
 		F0470CB91BAD3D150008C53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0470CB71BAD3D150008C53A /* LaunchScreen.storyboard */; };
 		F0470CC41BAD3D150008C53A /* SSLoggerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0470CC31BAD3D150008C53A /* SSLoggerSampleTests.swift */; };
 		F0470CCF1BAD3D150008C53A /* SSLoggerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0470CCE1BAD3D150008C53A /* SSLoggerSampleUITests.swift */; };
+		F0470CDA1BAD44A20008C53A /* SSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0470C8B1BAD3B8D0008C53A /* SSLogger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0470CDA1BAD44A20008C53A /* SSLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +508,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEBUG";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -699,6 +702,7 @@
 				F0470CA11BAD3B8D0008C53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0470CA21BAD3B8D0008C53A /* Build configuration list for PBXNativeTarget "SSLoggerTests" */ = {
 			isa = XCConfigurationList;
@@ -707,6 +711,7 @@
 				F0470CA41BAD3B8D0008C53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0470CD11BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSample" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +720,7 @@
 				F0470CD31BAD3D150008C53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0470CD41BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +729,7 @@
 				F0470CD61BAD3D150008C53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0470CD71BAD3D150008C53A /* Build configuration list for PBXNativeTarget "SSLoggerSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +738,7 @@
 				F0470CD91BAD3D150008C53A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

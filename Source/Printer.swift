@@ -7,6 +7,7 @@
 //
 
 public func print(value:Any...){
+#if DEBUG
     var message = ""
     for element in value {
         var eachMessage = "\(element)"
@@ -19,4 +20,5 @@ public func print(value:Any...){
         message += eachMessage
     }
     Swift.print(message)
+#endif
 }
